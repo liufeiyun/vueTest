@@ -1,0 +1,18 @@
+1、前端
+nodejs+webpack+vue
+    nodejs: 主要用npm来进行包管理
+    webpack: 用来打包
+    vue: 当前比较流行的web框架
+        elementui: UI组件
+        axios: 发http请求
+        vue-awesome: 图标库
+2、环境搭建
+  （1）安装最新版nodejs
+  （2）使用cnpm代替npm ：npm install -g cnpm --registry=https://registry.npm.taobao.org
+  （3）使用cnpm安装webpack ：cnpm install webpack -g
+  （4）使用cnpm安装vue-cli ：cnpm install -g vue-cli
+3、使用webpack模版初始化vue项目
+  vue init webpack testPro
+  在项目目录执行：cnpm install
+                  cnpm run dev
+4、在浏览器输入网址浏览
